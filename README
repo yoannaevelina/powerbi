@@ -14,10 +14,23 @@ Plan:
 - converting visuals, 
 - mapping calculated fields, 
 - translating filters.
-
+2. Source: excel files, SQL database or Azure databricks?
+Azure databricks subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=portal
+3. Share PowerBI workspace with team members
 
 References:
 1. https://techcommunity.microsoft.com/blog/analyticsonazure/tableau-to-power-bi-migration-semantic-layer-first-approach-for-cloud-architects/4481009
 2. https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview
 3. meta BI
+
+Tableau tab:
+1. 
+11. Productivity MoM:
+- Personal average productivity for the period
+- Budget line for the level group
+- Average productivty for the level group,
+both in current period and in YTD
+
+
+
 
