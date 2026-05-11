@@ -1,0 +1,23 @@
+https://www.reddit.com/r/tableau/comments/1k0865x/tableau_to_power_bi_migration/
+1. There is no tool in the market that can migrate Tableau to Power BI directly.
+2. The feature sets and the entire modeling/programming paradigm are different.
+3. If Microsoft has not developed this tool, the chance of us or other team doing so is slim to none. If they could, they would be selling a product worth millions.
+4. Backend file type of each: it is run by connection to other databases.
+
+
+https://www.reddit.com/r/PowerBI/comments/1fkk8up/tableau_to_power_bi_migration_sharing_my/
+1. 
+
+
+Plan:
+1. structural and repetitive parts:
+- converting visuals, 
+- mapping calculated fields, 
+- translating filters.
+
+
+References:
+1. https://techcommunity.microsoft.com/blog/analyticsonazure/tableau-to-power-bi-migration-semantic-layer-first-approach-for-cloud-architects/4481009
+2. https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview
+3. meta BI
+
