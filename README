@@ -25,8 +25,12 @@ Using raw excel as source:
 Raw Excel -> 
    ↓
 Power Query (M) for ETL -> https://learn.microsoft.com/en-us/powerquery-m/
+- any defensive code (e.g., handling error values during transformation so it has no effect on the DAX downstream)
+- previous period tables
    ↓
 Data Model (Relationships)
+- Replace adhoc joins (those that are not intended for data enrichment) 
+- Useage: let a slicer on one table filter another table
    ↓
 DAX Measures
    ↓
