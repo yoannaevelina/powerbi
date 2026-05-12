@@ -17,6 +17,21 @@ Plan:
 2. Source: excel files, SQL database or Azure databricks?
 Azure databricks subscription: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=portal
 3. Share PowerBI workspace with team members
+- workspace -> manage access -> assign workspace roles (admin, member, contributor)
+
+
+Using raw excel as source:
+1. Instead of loading the result after processing all in python and SQL, build end-to-end queries in PowerBI directly.
+Raw Excel -> 
+   ↓
+Power Query (M) for ETL -> https://learn.microsoft.com/en-us/powerquery-m/
+   ↓
+Data Model (Relationships)
+   ↓
+DAX Measures
+   ↓
+Reports & Dashboards
+
 
 References:
 1. https://techcommunity.microsoft.com/blog/analyticsonazure/tableau-to-power-bi-migration-semantic-layer-first-approach-for-cloud-architects/4481009
